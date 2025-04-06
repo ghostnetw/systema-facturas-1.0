@@ -1,18 +1,20 @@
 {
   "/_not-found/page": "/_not-found",
+  "/api/auth/login/route": "/api/auth/login",
   "/budgets/[id]/edit/page": "/budgets/[id]/edit",
-  "/budgets/[id]/page": "/budgets/[id]",
   "/budgets/new/page": "/budgets/new",
+  "/budgets/[id]/page": "/budgets/[id]",
   "/budgets/page": "/budgets",
-  "/clients/[id]/edit/page": "/clients/[id]/edit",
   "/clients/[id]/page": "/clients/[id]",
+  "/clients/[id]/edit/page": "/clients/[id]/edit",
   "/clients/new/page": "/clients/new",
   "/clients/page": "/clients",
-  "/invoices/[id]/page": "/invoices/[id]",
   "/invoices/[id]/edit/page": "/invoices/[id]/edit",
-  "/invoices/page": "/invoices",
+  "/invoices/[id]/page": "/invoices/[id]",
   "/invoices/new/page": "/invoices/new",
-  "/reports/page": "/reports",
+  "/invoices/page": "/invoices",
   "/page": "/",
-  "/settings/page": "/settings"
+  "/reports/page": "/reports",
+  "/settings/page": "/settings",
+  "/login/page": "/login"
 }

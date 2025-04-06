@@ -113,6 +113,12 @@
       "namedRegex": "^/invoices/new(?:/)?$"
     },
     {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
       "page": "/reports",
       "regex": "^/reports(?:/)?$",
       "routeKeys": {},

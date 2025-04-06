@@ -1,18 +1,20 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
   "/budgets/[id]/edit/page": "app/budgets/[id]/edit/page.js",
-  "/budgets/[id]/page": "app/budgets/[id]/page.js",
   "/budgets/new/page": "app/budgets/new/page.js",
+  "/budgets/[id]/page": "app/budgets/[id]/page.js",
   "/budgets/page": "app/budgets/page.js",
-  "/clients/[id]/edit/page": "app/clients/[id]/edit/page.js",
   "/clients/[id]/page": "app/clients/[id]/page.js",
+  "/clients/[id]/edit/page": "app/clients/[id]/edit/page.js",
   "/clients/new/page": "app/clients/new/page.js",
   "/clients/page": "app/clients/page.js",
-  "/invoices/[id]/page": "app/invoices/[id]/page.js",
   "/invoices/[id]/edit/page": "app/invoices/[id]/edit/page.js",
-  "/invoices/page": "app/invoices/page.js",
+  "/invoices/[id]/page": "app/invoices/[id]/page.js",
   "/invoices/new/page": "app/invoices/new/page.js",
-  "/reports/page": "app/reports/page.js",
+  "/invoices/page": "app/invoices/page.js",
   "/page": "app/page.js",
-  "/settings/page": "app/settings/page.js"
+  "/reports/page": "app/reports/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/login/page": "app/login/page.js"
 }

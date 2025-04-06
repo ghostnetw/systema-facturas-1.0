@@ -96,7 +96,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\admin\\Downloads\\facturacion",
+    "outputFileTracingRoot": "C:\\Users\\admin\\Desktop\\facturaciondev2.0\\facturacion2.0",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -175,7 +175,7 @@
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
       "turbo": {
-        "root": "C:\\Users\\admin\\Downloads\\facturacion"
+        "root": "C:\\Users\\admin\\Desktop\\facturaciondev2.0\\facturacion2.0"
       },
       "typedRoutes": false,
       "typedEnv": false,
@@ -282,7 +282,7 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs"
   },
-  "appDir": "C:\\Users\\admin\\Downloads\\facturacion",
+  "appDir": "C:\\Users\\admin\\Desktop\\facturaciondev2.0\\facturacion2.0",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
@@ -304,6 +304,6 @@
     ".next\\server\\next-font-manifest.json"
   ],
   "ignore": [
-    "node_modules\\.pnpm\\next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0\\node_modules\\next\\dist\\compiled\\@ampproject\\toolbox-optimizer\\**\\*"
+    "node_modules\\next\\dist\\compiled\\@ampproject\\toolbox-optimizer\\**\\*"
   ]
 }

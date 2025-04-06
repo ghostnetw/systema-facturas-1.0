@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/clients/new": {
+    "/budgets/new": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,32 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/clients/new",
-      "dataRoute": "/clients/new.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/clients": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/clients",
-      "dataRoute": "/clients.rsc",
+      "srcRoute": "/budgets/new",
+      "dataRoute": "/budgets/new.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -73,7 +49,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/budgets/new": {
+    "/clients": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -86,8 +62,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/budgets/new",
-      "dataRoute": "/budgets/new.rsc",
+      "srcRoute": "/clients",
+      "dataRoute": "/clients.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/clients/new": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/clients/new",
+      "dataRoute": "/clients/new.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -121,6 +121,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/invoices": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/invoices",
+      "dataRoute": "/invoices.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -145,7 +169,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/invoices": {
+    "/reports": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -158,8 +182,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/invoices",
-      "dataRoute": "/invoices.rsc",
+      "srcRoute": "/reports",
+      "dataRoute": "/reports.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -193,7 +217,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/reports": {
+    "/login": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -206,8 +230,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/reports",
-      "dataRoute": "/reports.rsc",
+      "srcRoute": "/login",
+      "dataRoute": "/login.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -221,8 +245,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "662f72f073d788a218726ca645383e78",
-    "previewModeSigningKey": "19aa31e3481c3a4e1f672f76150e0eb5305b19110f4e66c00aa2b297e12904cc",
-    "previewModeEncryptionKey": "7c3d3785d36ab6a0ab250549a0c2811205c041461b83711eec31f1cf8b8d242b"
+    "previewModeId": "b43c59248b5b453e020d809e118eb1ab",
+    "previewModeSigningKey": "1835b985032bf1a14b3a879ff40bdc5d83ffad920867b5e9e50f42e786172e9a",
+    "previewModeEncryptionKey": "6a3a3cf642cad59e855e5785b815efc038d6c3bdfed74b7f79183b9467ddd8ef"
   }
 }
